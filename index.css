@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@keyframes flash-yellow {
+  0% { border-color: yellow; opacity: 1; }
+  50% { border-color: transparent; opacity: 0.5; }
+  100% { border-color: yellow; opacity: 1; }
+}
+
+.flash-yellow-border {
+  animation: flash-yellow 0.5s infinite;
+}
